@@ -3,21 +3,22 @@ html, body {
     font-family: 'Poppins', sans-serif;
   }
   
-  /* body {
+  body {
     width: 100%;
     background: rgb(26,140,141);
   background: -moz-radial-gradient(center, ellipse cover, rgba(26,140,141,1) 0%, rgba(3,95,120,1) 100%);
   background: -webkit-radial-gradient(center, ellipse cover, rgba(26,140,141,1) 0%,rgba(3,95,120,1) 100%);
   background: radial-gradient(ellipse at center, rgba(26,140,141,1) 0%,rgba(3,95,120,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a8c8d', endColorstr='#035f78',GradientType=1 );
-  } */
+  }
 
-  body{
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(/eid-bg.jpg);
+  /* body{
+    background-image:-moz-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(/eid-bg.jpg);
+    background-image:-webkit-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(/eid-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-  }
+  } */
   
   strong {
     font-weight: bold;
